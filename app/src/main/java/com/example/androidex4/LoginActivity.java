@@ -52,7 +52,7 @@ public class LoginActivity extends AppCompatActivity {
         password = (EditText)findViewById(R.id.getpassword);
         btnLogin = findViewById( R.id.loginbutt );
         btnLogin.setOnClickListener( new View.OnClickListener() {
-            @Override
+            @Override    
             public void onClick(View v) {
                 String user = userName.getText().toString();
                 String passwordUser = password.getText().toString();
