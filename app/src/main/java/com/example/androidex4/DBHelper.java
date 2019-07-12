@@ -12,7 +12,7 @@ public class DBHelper extends SQLiteOpenHelper {
         super(context, "db", null, VERSION);
     }
 
-
+    
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(Petek.CREATE_TABLE);
