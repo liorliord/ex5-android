@@ -33,7 +33,7 @@ public class Petek {
         status = c.getString(3);
         date = Calendar.getInstance().getTime();
     }
-
+    
     public String getSQLInsertString(){
         return "INSERT INTO " + TABLE_NAME +
                 " (title, content, status, date) VALUES('" + title + "','" + content + "','" + status + "','" + date + "')";
